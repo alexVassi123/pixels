@@ -22,7 +22,7 @@ public class PixelGrid{
 
     public PixelGrid(String filename) throws FileNotFoundException {
         this.filename = filename;
-
+        readFile();
     }
 
     public void readFile(){
